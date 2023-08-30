@@ -1,0 +1,119 @@
+.listCon {
+    margin: 3rem auto;
+    /* width: 95%; */
+    margin-top: -2%;
+    max-width: 50rem;
+    border-radius: 6px;
+    background-color: rgba(114, 190, 235, 0.5);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    text-align: center;
+    color: rgb(20, 19, 19);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   
+}
+.listCon ul {
+    height: 75vh;
+    overflow: auto;
+}
+
+.listCon h1 {
+    padding: 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    background-color: rgba(4, 117, 89, 0.8);
+    border-radius: 12px;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    margin-left: -2%;
+    padding: 0.5rem;
+    border: 3px solid rgb(110, 49, 92);
+    border-radius: 12px;
+    background-color: rgb(53, 53, 122);
+}
+.date {
+    border: 2px solid white;
+    border-radius: 12px;
+    height: 50px;
+    box-shadow: 0 2px 4px rgba(130, 73, 163, 0.4);
+    background-color: rgba(130, 73, 163, 0.4);
+    color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.btn button {
+    height: 40px;
+    width: 40px;
+    margin: 0.5rem;
+}
+
+.edit {
+    color: white;
+    background-color: rgb(48, 163, 48);
+}
+
+.dlt {
+    color: white;
+    background-color: rgb(112, 32, 32);
+}
+.totalAmt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(102, 16, 16);
+    padding-left: 0;
+    padding-right: 20px;
+}
+.totalAmt h3 {
+    font-weight: bold;
+}
+.totalAmt span {
+    font-weight: bold;
+}
+.totalAmt Button {
+    margin-left: -20%;
+}
+
+.totalAmt p {
+    color: rgb(129, 5, 5) !important;
+}
+/* .container {
+    background-color: rgb(237, 252, 170);
+    padding: 10px;
+} */
+
+@media (max-width: 540px) {
+    .listItem {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .totalAmt {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}

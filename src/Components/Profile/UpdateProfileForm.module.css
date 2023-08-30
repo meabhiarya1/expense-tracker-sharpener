@@ -1,0 +1,33 @@
+.updateForm {
+  margin: 3rem auto;
+  /* width: 95%; */
+  margin-top: 8rem;
+  max-width: 50rem;
+  border-radius: 6px;
+  background-color: rgba(114, 190, 235, 0.5);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+  color: rgb(20, 19, 19);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.updateForm h1 {
+  font-weight: bold;
+}
+
+.mb-3 {
+  display: flex;
+  padding: 1rem;
+}
+
+.label {
+  width: 10rem;
+}
+
+/* @media (max-width: 768px) {
+  .updateForm {
+    width: 100%;
+  }
+} */
+
